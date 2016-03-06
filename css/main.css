@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  line-height:1.5;
+  margin: 1.5;
+  max-width: 47em;
+  color: #222;
+  font-size: 0.75rem;
+}
+
+img {
+  margin: 1.5;
+  padding: 1.5;
+  display: inline-block;
+  width: 100%;
+  border: 1.5px solid #1e7c74;
+  border-radius: 5px;
+  max-width: 47em;
+}
+
+article {
+  background-color: #fff;
+}
+
+header {
+  background-color: #259f95;
+  color: #fff;
+  border: 1.5px solid #259f95;
+  border-radius: 5px;
+  padding: 1.5em;
+  max-width: 47em;
+  display: block;
+  text-align: left;
+}
+
+.chapter-num {
+  font-style: italic;
+  font-size: 1rem;
+  display: block;
+}
